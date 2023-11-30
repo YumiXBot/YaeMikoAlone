@@ -57,7 +57,7 @@ Your contributions drive the project forward. Thank you for your support!
 <p align="center">Click the button below to deploy YAE ダ MIKO on Heroku and enjoy its enhanced features and user-friendly interface!</p>
 
 <p align="center">
-    <a href="https://heroku.com/deploy?template=https://github.com/Infamous-Hydra/YaeMiko">
+    <a href="https://heroku.com/deploy?template=https://github.com/YumiXBot/YaeMiko">
         <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
     </a>
 </p>
