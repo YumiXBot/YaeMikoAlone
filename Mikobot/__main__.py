@@ -397,18 +397,18 @@ async def stats_back(update: Update, context: ContextTypes.DEFAULT_TYPE):
         mem = psutil.virtual_memory().percent
         disk = psutil.disk_usage("/").percent
         text = f"""
-𝙎𝙮𝙨𝙩𝙚𝙢 𝙨𝙩𝙖𝙩𝙨@𝙔𝙖𝙚𝙈𝙞𝙠𝙤_𝙍𝙤𝙭𝙗𝙤𝙩
+𝙎𝙮𝙨𝙩𝙚𝙢 𝙨𝙩𝙖𝙩𝙨
 ➖➖➖➖➖➖
-UPTIME ➼ {uptime}
-CPU ➼ {cpu}%
-RAM ➼ {mem}%
-DISK ➼ {disk}%
+Uᴘᴛɪᴍᴇ ➼ {uptime}
+Cᴘᴜ ➼ {cpu}%
+Rᴀᴍ ➼ {mem}%
+Dɪsᴋ ➼ {disk}%
 
-PYTHON ➼ {PYTHON_VERSION}
+Pʏᴛʜᴏɴ ➼ {PYTHON_VERSION}
 
-PTB ➼ {PTB_VERSION}
-TELETHON ➼ {TELETHON_VERSION}
-PYROGRAM ➼ {PYROGRAM_VERSION}
+Pᴛʙ ➼ {PTB_VERSION}
+Tᴇʟᴇᴛʜᴏɴ ➼ {TELETHON_VERSION}
+Pʏʀᴏɢʀᴀᴍ ➼ {PYROGRAM_VERSION}
 """
         await query.answer(text=text, show_alert=True)
 
@@ -420,7 +420,7 @@ async def gitsource_callback(update: Update, context: ContextTypes.DEFAULT_TYPE)
     if query.data == "git_source":
         source_link = "https://github.com/TeamAloneOp/AloneXRobot"
         message_text = (
-            f"*Here is the link for the public source repo*:\n\n{source_link}"
+            f"*𝗟𝗔𝗡𝗗 𝗟𝗘 𝗠𝗔𝗗𝗘𝗥𝗖𝗛𝗢𝗗 𝗥𝗘𝗣𝗢 𝗟𝗔𝗚𝗔 𝗔𝗣𝗡𝗜 𝗠𝗨𝗠𝗠𝗬 𝗞𝗔 𝗖𝗛𝗨𝗧 𝗗𝗘 𝗗𝗘 𝗥𝗘𝗣𝗢 𝗗𝗘 𝗗𝗨𝗡𝗚𝗔*"
         )
 
         # Adding the inline button
@@ -437,7 +437,7 @@ async def gitsource_callback(update: Update, context: ContextTypes.DEFAULT_TYPE)
 
 async def repo(update: Update, context: ContextTypes.DEFAULT_TYPE):
     source_link = "https://github.com/TeamAloneOp/AloneXRobot"
-    message_text = f"*Here is the link for the public source repo*:\n\n{source_link}"
+    message_text = f"*𝗟𝗔𝗡𝗗 𝗟𝗘 𝗠𝗔𝗗𝗘𝗥𝗖𝗛𝗢𝗗 𝗥𝗘𝗣𝗢 𝗟𝗔𝗚𝗔 𝗔𝗣𝗡𝗜 𝗠𝗨𝗠𝗠𝗬 𝗞𝗔 𝗖𝗛𝗨𝗧 𝗗𝗘 𝗗𝗘 𝗥𝗘𝗣𝗢 𝗗𝗘 𝗗𝗨𝗡𝗚𝗔*"
 
     await context.bot.send_message(chat_id=update.effective_chat.id,
                                    text=message_text,
