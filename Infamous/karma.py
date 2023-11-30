@@ -10,13 +10,13 @@ from Mikobot import BOT_USERNAME, OWNER_ID, SUPPORT_CHAT
 
 # <============================================== CONSTANTS =========================================================>
 START_IMG = [
-    "https://telegra.ph/file/40b93b46642124605e678.jpg",
-    "https://telegra.ph/file/01a2e0cd1b9d03808c546.jpg",
-    "https://telegra.ph/file/ed4385c26dcf6de70543f.jpg",
     "https://telegra.ph/file/a5dde31d76a38bbe2b6b8.jpg",
-    "https://telegra.ph/file/cce9038f6a9b88eb409b5.jpg",
-    "https://telegra.ph/file/262c86393730a609cdade.jpg",
-    "https://telegra.ph/file/33a8d97739a2a4f81ddde.jpg",
+    "https://telegra.ph/file/a5dde31d76a38bbe2b6b8.jpg",
+    "https://telegra.ph/file/a5dde31d76a38bbe2b6b8.jpg",
+    "https://telegra.ph/file/a5dde31d76a38bbe2b6b8.jpg",
+    "https://telegra.ph/file/a5dde31d76a38bbe2b6b8.jpg",
+    "https://telegra.ph/file/a5dde31d76a38bbe2b6b8.jpg",
+    "https://telegra.ph/file/a5dde31d76a38bbe2b6b8.jpg",
 ]
 
 HEY_IMG = "https://telegra.ph/file/a5dde31d76a38bbe2b6b8.jpg"
@@ -61,12 +61,9 @@ START_BTN = [
         InlineKeyboardButton(text="Cᴏᴍᴍᴀɴᴅs", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="Dᴇᴛᴀɪʟs", callback_data="Miko_"),
+        InlineKeyboardButton(text="Dᴇᴠ", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="Aɪ", callback_data="ai_handler"),
         InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇs", url="https://t.me/AloneXBots"),
-    ],
-    [
-        InlineKeyboardButton(text="CʀᴇᴀᴛᴏʀR", url=f"tg://user?id={OWNER_ID}"),
     ],
 ]
 
@@ -97,9 +94,9 @@ ALIVE_BTN = [
 ]
 
 HELP_STRINGS = """
-🫧 *Kirito* 🫧
+🫧 *ᴀʟᴏɴᴇ ʀᴏʙᴏᴛ* 🫧
 
-☉ *Here, you will find a list of all the available commands.*
+☉ *Hᴇʀᴇ, Yᴏᴜ Will Fɪɴᴅ A Lɪsᴛ Oғ Aʟʟ Tʜᴇ Aᴠᴀɪʟʙʟᴇ Cᴏᴍᴍᴀɴᴅs.*
 
 ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ : /
 """
