@@ -63,7 +63,7 @@ START_BTN = [
     [
         InlineKeyboardButton(text="Dᴇᴛᴀɪʟs", callback_data="Miko_"),
         InlineKeyboardButton(text="Aɪ", callback_data="ai_handler"),
-        InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/hydraXsupport"),
+        InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇs", url="https://t.me/AloneXBots"),
     ],
     [
         InlineKeyboardButton(text="CʀᴇᴀᴛᴏʀR", url=f"tg://user?id={OWNER_ID}"),
