@@ -21,24 +21,24 @@ async def getid(update: Update, context: ContextTypes.DEFAULT_TYPE):
     message_id = update.message.message_id
     reply = update.message.reply_to_message
 
-    text = f"[Message ID:](https://t.me/{chat.username}/{message_id}) `{message_id}`\n"
-    text += f"[Your ID:](tg://user?id={your_id}) `{your_id}`\n"
+    text = f"[Mᴇssᴀɢᴇ Iᴅ:](https://t.me/{chat.username}/{message_id}) `{message_id}`\n"
+    text += f"[Yᴏᴜʀ Iᴅ:](tg://user?id={your_id}) `{your_id}`\n"
 
     if context.args:
         try:
             user_id = context.args[0]
-            text += f"[User ID:](tg://user?id={user_id}) `{user_id}`\n"
+            text += f"[Usᴇʀ Iᴅ:](tg://user?id={user_id}) `{user_id}`\n"
         except Exception:
             await update.message.reply_text(
                 "This user doesn't exist.", parse_mode="Markdown"
             )
             return
 
-    text += f"[Chat ID:](https://t.me/{chat.username}) `{chat.id}`\n\n"
+    text += f"[Cʜᴀᴛ Iᴅ:](https://t.me/{chat.username}) `{chat.id}`\n\n"
 
     if reply:
-        text += f"[Replied Message ID:](https://t.me/{chat.username}/{reply.message_id}) `{reply.message_id}`\n"
-        text += f"[Replied User ID:](tg://user?id={reply.from_user.id}) `{reply.from_user.id}`\n\n"
+        text += f"[Rᴇᴘʟɪᴇᴅ Mᴇssᴀɢᴇ Iᴅ:](https://t.me/{chat.username}/{reply.message_id}) `{reply.message_id}`\n"
+        text += f"[Rᴇᴘʟɪᴇᴅ Usᴇʀ Iᴅ:](tg://user?id={reply.from_user.id}) `{reply.from_user.id}`\n\n"
 
     if reply and reply.forward_from_chat:
         text += f"The forwarded channel, {reply.forward_from_chat.title}, has an id of `{reply.forward_from_chat.id}`\n\n"
@@ -131,5 +131,5 @@ __help__ = """
 » /id: reply to get user id.
 """
 
-__mod_name__ = "EXTRA"
+__mod_name__ = "Exᴛʀᴀ"
 # <================================================ END =======================================================>
