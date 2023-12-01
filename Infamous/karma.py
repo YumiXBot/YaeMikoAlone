@@ -58,7 +58,7 @@ START_BTN = [
         ),
     ],
     [
-        InlineKeyboardButton(text="Cᴏᴍᴍᴀɴᴅs", callback_data="help_back"),
+        InlineKeyboardButton(text="Cᴏᴍᴍᴀɴᴅs", callback_data="Main_help"),
     ],
     [
         InlineKeyboardButton(text="Dᴇᴠ", url=f"tg://user?id={OWNER_ID}"),
