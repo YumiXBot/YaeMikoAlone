@@ -465,7 +465,7 @@ async def AloneRobot_Main_Callback(update: Update, context: ContextTypes.DEFAULT
         )
         
         
-  async def Music_about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
+async def Music_about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
     if query.data == "Music_":
         query.message.edit_caption(f"""
