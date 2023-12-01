@@ -10,16 +10,16 @@ from Mikobot import BOT_USERNAME, OWNER_ID, SUPPORT_CHAT
 
 # <============================================== CONSTANTS =========================================================>
 START_IMG = [
-    "https://telegra.ph/file/a5dde31d76a38bbe2b6b8.jpg",
-    "https://telegra.ph/file/a5dde31d76a38bbe2b6b8.jpg",
-    "https://telegra.ph/file/a5dde31d76a38bbe2b6b8.jpg",
-    "https://telegra.ph/file/a5dde31d76a38bbe2b6b8.jpg",
-    "https://telegra.ph/file/a5dde31d76a38bbe2b6b8.jpg",
-    "https://telegra.ph/file/a5dde31d76a38bbe2b6b8.jpg",
-    "https://telegra.ph/file/a5dde31d76a38bbe2b6b8.jpg",
+    "https://telegra.ph/file/9417608b498572767c188.jpg",
+    "https://telegra.ph/file/c9da8690eb49d5bb323c4.jpg",
+    "https://telegra.ph/file/f8a8f824e3d8507ed7d70.jpg",
+    "https://telegra.ph/file/8f8897391b02635f6c19a.jpg",
+    "https://telegra.ph/file/7293c9538db7cc350be7d.jpg",
+    "https://telegra.ph/file/fb963b2b40c076b71120a.jpg",
+    "https://telegra.ph/file/1fd3655b3e98b40b76389.jpg",
 ]
 
-HEY_IMG = "https://telegra.ph/file/a5dde31d76a38bbe2b6b8.jpg"
+HEY_IMG = "https://telegra.ph/file/dd63646a33309b1eaba35.jpg"
 
 ALIVE_ANIMATION = [
     "https://telegra.ph//file/f9e2b9cdd9324fc39970a.mp4",
@@ -48,7 +48,7 @@ MUTE_GIFS = [
 
 FIRST_PART_TEXT = "✨ *ʜᴇʟʟᴏ* `{}` . . ."
 
-PM_START_TEXT = "✨ *ɪ ᴀᴍ ᴋɪʀɪᴛᴏ, ᴀ ɢᴇɴꜱʜɪɴ ɪᴍᴘᴀᴄᴛ ᴛʜᴇᴍᴇᴅ ʀᴏʙᴏᴛ ᴡʜɪᴄʜ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ᴀɴᴅ ꜱᴇᴄᴜʀᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ʜᴜɢᴇ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ*"
+PM_START_TEXT = "✨ *ɪ ᴀᴍ ᴀʟᴏɴᴇ, ᴀ ɢᴇɴꜱʜɪɴ ɪᴍᴘᴀᴄᴛ ᴛʜᴇᴍᴇᴅ ʀᴏʙᴏᴛ ᴡʜɪᴄʜ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ᴀɴᴅ ꜱᴇᴄᴜʀᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ʜᴜɢᴇ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ*"
 
 START_BTN = [
     [
