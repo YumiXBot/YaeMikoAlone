@@ -596,6 +596,14 @@ c ꜱᴛᴀɴᴅꜱ ꜰᴏʀ ᴄʜᴀɴɴᴇʟ ᴘʟᴀʏ.
                 ]
             ),
         )
+    elif query.data == "Music_back":
+        first_name = update.effective_user.first_name
+        await query.message.edit_text(
+            PM_START_TEXT.format(escape_markdown(first_name), BOT_NAME),
+            reply_markup=InlineKeyboardMarkup(START_BTN),
+            parse_mode=ParseMode.MARKDOWN,
+            disable_web_page_preview=True,
+        )
 
 
 async def Miko_about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
