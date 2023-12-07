@@ -53,17 +53,18 @@ PM_START_TEXT = "✨ *ɪ ᴀᴍ ᴀʟᴏɴᴇ, ᴀ ɢᴇɴꜱʜɪɴ ɪᴍᴘᴀ�
 START_BTN = [
     [
         InlineKeyboardButton(
-            text="Sᴜᴍᴍᴏɴ Mᴇ",
+            text="⛩𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣⛩",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="Cᴏᴍᴍᴀɴᴅs", callback_data="help_back"),
+        InlineKeyboardButton(text="⚡️𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦⚡", callback_data="help_back"),
+        InlineKeyboardButton(text="𝗨𝗣𝗗𝗔𝗧𝗘𝗦🏥", url="https://t.me/AloneXBots"),
     ],
     [
-        InlineKeyboardButton(text="Dᴇᴠ", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text="Aɪ", callback_data="ai_handler"),
-        InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇs", url="https://t.me/AloneXBots"),
+        InlineKeyboardButton(text="🤖𝗔𝗜", callback_data="ai_handler"),
+        InlineKeyboardButton(text="𝗗𝗘𝗩", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="𝗦𝗢𝗨𝗥𝗖𝗘🫧", callback_data="git_source"),
     ],
 ]
 
