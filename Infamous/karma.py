@@ -71,24 +71,24 @@ START_BTN = [
 GROUP_START_BTN = [
     [
         InlineKeyboardButton(
-            text="Sᴜᴍᴍᴏɴ Mᴇ",
+            text="⛩𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣⛩",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
-        InlineKeyboardButton(text="Cʀᴇᴀᴛᴏʀ", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="𝗖𝗥𝗘𝗔𝗧𝗢𝗥", url=f"tg://user?id={OWNER_ID}"),
     ],
 ]
 
 ALIVE_BTN = [
     [
-        ib(text="Uᴘᴅᴀᴛᴇs", url="https://t.me/AloneXBots"),
-        ib(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/AlonesHeaven"),
+        ib(text="𝗨𝗣𝗗𝗔𝗧𝗘𝗦", url="https://t.me/AloneXBots"),
+        ib(text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧", url="https://t.me/AlonesHeaven"),
     ],
     [
         ib(
-            text="Sᴜᴍᴍᴏɴ Mᴇ",
+            text="⛩𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣⛩",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
