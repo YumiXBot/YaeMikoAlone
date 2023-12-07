@@ -420,7 +420,7 @@ async def gitsource_callback(update: Update, context: ContextTypes.DEFAULT_TYPE)
     if query.data == "git_source":
         source_link = "https://github.com/TeamAloneOp/AloneXRobot"
         message_text = (
-            f"*𝗟𝗔𝗡𝗗 𝗟𝗘 𝗠𝗔𝗗𝗘𝗥𝗖𝗛𝗢𝗗 𝗥𝗘𝗣𝗢 𝗟𝗔𝗚𝗔 𝗔𝗣𝗡𝗜 𝗠𝗨𝗠𝗠𝗬 𝗞𝗔 𝗖𝗛𝗨𝗧 𝗗𝗘 𝗗𝗘 𝗥𝗘𝗣𝗢 𝗗𝗘 𝗗𝗨𝗡𝗚𝗔*"
+            f"*𝗔𝗟𝗢𝗡𝗘 𝗠𝗨𝗦𝗜𝗖 𝗥𝗘𝗣𝗢 𝗜𝗦 𝗣𝗥𝗜𝗩𝗔𝗧𝗘*"
         )
 
         # Adding the inline button
@@ -437,7 +437,7 @@ async def gitsource_callback(update: Update, context: ContextTypes.DEFAULT_TYPE)
 
 async def repo(update: Update, context: ContextTypes.DEFAULT_TYPE):
     source_link = "https://github.com/TeamAloneOp/AloneXRobot"
-    message_text = f"*𝗟𝗔𝗡𝗗 𝗟𝗘 𝗠𝗔𝗗𝗘𝗥𝗖𝗛𝗢𝗗 𝗥𝗘𝗣𝗢 𝗟𝗔𝗚𝗔 𝗔𝗣𝗡𝗜 𝗠𝗨𝗠𝗠𝗬 𝗞𝗔 𝗖𝗛𝗨𝗧 𝗗𝗘 𝗗𝗘 𝗥𝗘𝗣𝗢 𝗗𝗘 𝗗𝗨𝗡𝗚𝗔*"
+    message_text = f"*𝗔𝗟𝗢𝗡𝗘 𝗠𝗨𝗦𝗜𝗖 𝗥𝗘𝗣𝗢 𝗜𝗦 𝗣𝗥𝗜𝗩𝗔𝗧𝗘*"
 
     await context.bot.send_message(chat_id=update.effective_chat.id,
                                    text=message_text,
